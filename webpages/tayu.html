@@ -3,43 +3,51 @@
         <title>
             DRestau
         </title>
+        <!--link to my css file that contains all stylinig for this page-->
+        <link rel="stylesheet" href="../static/css/index.css">
+        <!--link to a font on google fonts used on the page fonts.google.com-->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--Navigation bar starts-->
-        <section>
+        <!--class name used for reference in css .../static/css/index.csss-->
+        <section class="navbar  outfitbold">
             <!--restaurant name-->
             <h3>
                 DRestau
             </h3>
             <!--navigation links-->
             <ul>
-                <li>
+                <li class="liactive">
                     Home
                 </li>
+                
                 <li>
-                    About
+                    Menu
                 </li>
                 <li>
                     Services
                 </li>
                 <li>
-                    Menu
+                    Pages
                 </li>
                 <li>
-                    Pages
+                    About
                 </li>
                 <li>
                     Contact
                 </li>
             </ul>
             <!--book a table button-->
-            <button>BOOK  A TABLE</button>
+            <button>Book A Table</button>
         </section>
         <!--whole body section with image and text side by side-->
-        <section>
+        <section  class="mainbody outfitbold">
         <!--subsection for text and button-->
-        <section>
-            </section>
+            <section class="desc">
                 <h3>
                     Welcome DRestau <br>Enjoy our special delicasies 
                 </h3>
@@ -47,9 +55,10 @@
                     At DRestau, we offer both local and international meals at very good prices and you
                     can chose to eat in of take away. make DRestau your kitchen away from home.
                 </p>
+                <button>See Menu</button>
             </section>
             <!--sub section just image-->
-            <section>
+            <section class="imgsec">
                 <img src="../static/achu-removebg-preview.png" alt="">
             </section>
         </section>
