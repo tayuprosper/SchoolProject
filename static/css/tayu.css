@@ -55,3 +55,7 @@ button{
   .desc p{
     font-weight: bolder;
   }
+a{
+    text-decoration: none;
+    color: white;
+}

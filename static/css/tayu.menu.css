@@ -1,0 +1,65 @@
+body{
+    background-image: url("../background.webp");
+}
+.menu{
+    display: flex;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(202, 196, 18);
+    border-radius: 1rem;
+    gap: 1;
+    min-width: 20%;
+    padding: 0px 0px 2rem 0px;
+}
+.pricing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.pricing button{
+    border: none;
+    background-color: rgba(10, 229, 10, 0.907);
+    padding: 1rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+}
+.item p{
+    font-weight: bolder;
+}
+.item{
+    display: flex;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+img{
+    width: 13rem;
+}
+.item h2{
+    margin: 0px 0px 0px 10px;
+}
+.sub-menu{
+    background-color: aliceblue;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+input{
+    border: none;
+    border-radius:2rem 0px 0rem 2rem;
+    width: 30%;
+    height: 2.9rem;
+    padding-left: 1rem;
+    margin: 0px;
+}
+.btn-search{
+    border: none;
+    border-radius:0px 2rem 2rem 0rem;
+    height: 3rem;
+    background-color: white;
+    margin: 0px;
+}
