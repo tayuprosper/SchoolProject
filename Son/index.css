@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('foto13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blur{
+    width: 100%;
+    height: 100vh;
+    background: #222222a0;
+}
+.blur .nav-bar{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background: #fff;
+}
+
+.blur .nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.blur .nav-bar ul li{
+    cursor: pointer;
+    padding: 20px 14px;
+}
+.blur .nav-bar ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #222222ea;
+}
+.blur .nav-bar ul #actv{
+    background: #222222ea;
+}
+.blur .nav-bar ul li #active{
+    color: #fff;
+}
+.blur .nav-bar ul #inactv:hover{
+    background: #222222ea;
+    transition: ease-out 0.5s;
+}
+.blur .nav-bar ul #inactv:hover #inactive{
+    color: #fff;
+    margin: 0%;
+    transition: 0.5s;
+}
+
+.brand-name{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.brand-name h2{
+    font-size: 112px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.brand-name p{
+    margin-top: -10px;
+    font-family: cursive;
+    font-size: 14px;
+    word-spacing: normal;
+    color: #ffffffc1;
+    word-spacing: 40px;
+    letter-spacing: 4px;
+}
+.brand-name #explore-btn{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -60px;
+    text-decoration: none;
+    padding: 8px 14px;
+    color: #222222c1;
+    background: #fff;
+    font-size: 20px;
+}
+.brand-name #explore-btn:hover{
+    background: transparent;
+    color: #fff;
+    transition: ease-out 0.5s;
+}
